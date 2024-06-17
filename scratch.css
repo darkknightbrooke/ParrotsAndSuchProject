@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #555555;
+}
+ul {
+    font-size: 14 px;
+    font-style: italic;
+}
+.parrot {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.box {
+    width: 90%;
+    background-color: rgb(110, 185, 217);
+    border-radius: 5%;
+    padding: 40px;
+    margin: 20px;
+    line-height: 2;
+}
+.box2 {
+    width: 90%;
+    background-color: rgb(105, 152, 105);
+    border-radius: 5%;
+    padding: 40px;
+    margin: 20px;
+    line-height: 2;
+}
+.box3 {
+    width: 90%;
+    background-color: rgb(79, 117, 79);
+    border-radius: 5%;
+    padding: 40px;
+    margin: 20px;
+    border: 15px #555555;
+}
+p {
+    padding: 5%;
+}
+.facttitles {
+    font-weight: bold;
+    font-size: large;
+}
+h1 {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
+.backimg {
+    background-image: url('../sky_background.jpeg');
+    background-position: top right;
+}
+.container {
+    display: flex;
+    width: 600px;
+    height: 425px;
+}
+.row {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+.resumelink {
+    text-align: center;
+    padding: 2%;
+    font-size: 18px;
+}
